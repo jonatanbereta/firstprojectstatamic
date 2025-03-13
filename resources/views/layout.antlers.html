@@ -1,23 +1,21 @@
-<!doctype html>
-<html lang="{{ site:short_locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }} - teste</title>
-        {{ vite src="resources/js/site.js|resources/css/site.css" }}
-    </head>
-    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title??'Simple Landing Page'}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
 
-        <header>Salut monde!</header>
+    <header>
+        {{partial:nav}}
+    </header>
 
-        {{ partial:intro }}
-  
+    <main>
+      {{template_content}}
+    </main>
 
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
-            {{ template_content }}
-        </div>
-
-        <footer>Ici c'est le footer'</footer>
-    </body>
+      {{partial:footer}}
+</body>
 </html>

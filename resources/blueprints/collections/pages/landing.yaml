@@ -6,6 +6,11 @@ tabs:
       -
         fields:
           -
+            handle: image_link
+            field:
+              type: text
+              display: 'Image link'
+          -
             handle: title
             field:
               type: text
@@ -18,15 +23,20 @@ tabs:
               type: text
               display: Subtitle
           -
-            handle: teaser
-            field:
-              type: text
-              display: Teaser
-          -
-            handle: show_lightning_bolts
+            handle: show_header_button
             field:
               type: toggle
-              display: 'Show Lightning Bolts'
+              display: 'Show header button'
+          -
+            handle: cta_text
+            field:
+              type: text
+              display: 'CTA text'
+          -
+            handle: cta_link
+            field:
+              type: link
+              display: 'CTA Link'
   sidebar:
     display: Sidebar
     sections:

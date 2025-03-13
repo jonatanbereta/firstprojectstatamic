@@ -1,16 +1,13 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: landing
+title: 'Build Something Amazing'
+template: home
+subtitle: 'Create stunning web experiences with our powerful and amazing platform. Start your journey today and transform your ideas into reality.'
+show_header_button: true
+updated_by: 55a783ce-d144-4022-9ec5-c58b834dccad
+updated_at: 1741744986
+image_link: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80'
+cta_text: 'Lets go!'
+cta_link: '#'
 ---
-## Welcome to your brand new Statamic site!
-
-Not sure what to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
-
-- [Jump into the Control Panel](/cp) and edit this page or begin setting up your own collections and blueprints.
-- [Head to the docs](https://statamic.dev) and learn how Statamic works.
-- [Watch some Statamic videos](https://youtube.com/statamic) on YouTube.
-- [Join our Discord chat](https://statamic.com/discord) and meet thousands of other Statamic developers.
-- [Start a discussion](https://github.com/statamic/cms/discussions) and get answers to your questions.
-- [Star Statamic on Github](https://github.com/statamic/cms) if you enjoy using it!
